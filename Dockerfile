@@ -2,7 +2,7 @@ FROM centos:7
 
 USER root
 
-MAINTAINER drib <contact@drib.tech>
+LABEL maintainer = "contact@drib.tech"
 
 RUN yum -y update && \
  yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm && \
