@@ -12,6 +12,6 @@ Accompanying files for [Docker tutorial](http://drib.tech/programming/docker-tut
 * $ sudo docker run -dp 8080:80 -v /srv/php56test/:/var/www/html/ centos7-apache-php56-fpm
 * Visit http://localhost:8080 .
 
-#Learn more
+## Learn more
 
 For more details read the complete tutorial at: [drib.tech/programming/docker-tutorial](http://drib.tech/programming/docker-tutorial).
